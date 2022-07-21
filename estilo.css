@@ -2,17 +2,31 @@
     --background: #D8CDB5;
     --shadows: #CAB181;
     --object: #77898B;
+    --objectT: #77898b59;
     --interactive: #852614;
     --focus: #C85F31;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
     background-color: var(--background);
     margin: 0px;
 }
 nav{
-    background-color: var(--object);
+    background-color: var(--objectT);
 }
 h1.titulo {
+    text-align: center;
     color: var(--interactive);
     margin: 0px;
+}
+.grid{
+    display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 200px 200px;
+	place-items: center;
+}
+img.img-p{
+    text-align: center;
+    width: 50%;
+    height: auto;
 }
