@@ -5,12 +5,14 @@
     --interactive: #852614;
     --focus: #C85F31;
 }
-html{
+body{
     background-color: var(--background);
+    margin: 0px;
 }
 nav{
     background-color: var(--object);
 }
 h1.titulo {
     color: var(--interactive);
+    margin: 0px;
 }
