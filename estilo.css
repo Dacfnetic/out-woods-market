@@ -1,0 +1,16 @@
+:root {
+    --background: #D8CDB5;
+    --shadows: #CAB181;
+    --object: #77898B;
+    --interactive: #852614;
+    --focus: #C85F31;
+}
+html{
+    background-color: var(--background);
+}
+nav{
+    background-color: var(--object);
+}
+h1.titulo {
+    color: var(--interactive);
+}
