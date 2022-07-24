@@ -24,9 +24,18 @@ h1.titulo {
     margin: 20px;
 }
 .imagen-flex{
-    width: 1px;
-    height: auto;
     border: black solid 4px;
     box-shadow: #77898B 10px;
     flex: 1;
+}
+.imagen-flex img{
+    width: 100%;
+    height: auto;
+}
+
+.imagen-flex p{
+    margin: 0px;
+    text-align: center;
+    border: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
