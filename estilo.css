@@ -19,14 +19,14 @@ h1.titulo {
     color: var(--interactive);
     margin: 0px;
 }
-.grid{
-    display: grid;
-	grid-template-columns: 33% 33% 33%;
-	grid-template-rows: 200px 200px;
-	place-items: center;
+.objetos-flex-container{
+    display: flex;
+    margin: 20px;
 }
-img.img-p{
-    text-align: center;
-    width: 50%;
+.imagen-flex{
+    width: 1px;
     height: auto;
+    border: black solid 4px;
+    box-shadow: #77898B 10px;
+    flex: 1;
 }
