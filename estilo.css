@@ -13,11 +13,36 @@ body{
 }
 nav{
     background-color: var(--objectT);
+    display: flex;
 }
-h1.titulo {
+nav div {
+    flex: 2 1 100%;
+    margin: 0px;
+}
+#espacio{
+    flex: 3 1 auto;
+    margin: 0px;
+}
+nav a {
+    flex: 1;
+    text-align: center;
+    text-shadow: #852614;
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 40%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.titulo {
     text-align: center;
     color: var(--interactive);
-    margin: 0px;
+    margin: 5px;
+    border: var(--shadows) solid 2px;
+    padding: 20px;
+    background-color: var(--background);
 }
 .objetos-flex-container{
     display: flex;
