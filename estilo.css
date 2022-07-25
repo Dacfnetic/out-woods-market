@@ -31,10 +31,11 @@ nav a {
     padding: 0px;
 }
 .logo{
-    width: 40%;
+    width: 20%;
     height: auto;
     margin: 0px;
     padding: 0px;
+    flex: 1;
 }
 .titulo {
     text-align: center;
