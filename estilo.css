@@ -7,34 +7,36 @@
     --focus: #C85F31;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 body{
     background-color: var(--background);
     margin: 0px;
 }
-nav{
+
+.nav-flex-container{
     background-color: var(--objectT);
     display: flex;
-}
-#espacio{
-    flex: 3 1 auto;
     margin: 0px;
 }
+
 nav a {
     flex: 1;
     text-align: center;
     text-shadow: #852614;
+    border: var(--shadows) solid 2px;
+    background-color: var(--background);
     color: var(--interactive);
     margin: 5px;
-    border: var(--shadows) solid 2px;
     padding: 20px;
-    background-color: var(--background);
+    
 }
-.logo{
-    width: 20%;
+.logo-flex{
+    border: 0px;
+    flex: 8 1;
+}
+.logo-flex img{
+    width: 100%;
     height: auto;
-    margin: 0px;
-    padding: 0px;
-    flex: 1;
 }
 
 .objetos-flex-container{
